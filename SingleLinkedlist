@@ -93,5 +93,10 @@ public:
 
     void traverse()
     {
+        if (listEmpty())
+        {
+            cout << "\nList kosong\n";
+        }
+  
     }
 };
